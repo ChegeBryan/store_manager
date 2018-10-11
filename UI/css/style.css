@@ -32,7 +32,6 @@ ul{
     background-size: cover;
 }
 
-
 /*=======================================================================
 *
 * Font Styles
@@ -40,7 +39,8 @@ ul{
  ========================================================================*/
 
 header{
-    font-size: 2em;
+    font-size: 2.3em;
+    font-weight: bold;
 }
 .robo-font{
     font-family: 'Roboto', sans-serif;
