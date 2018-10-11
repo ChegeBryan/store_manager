@@ -26,6 +26,12 @@ a{
 ul{
     list-style: none;
 }
+.bg-1{
+    height: 100%;
+    background: url("../img/bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
 
 /*=======================================================================
 *
