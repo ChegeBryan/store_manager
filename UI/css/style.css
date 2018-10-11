@@ -103,6 +103,21 @@ header{
     text-decoration: none;
     display: inline-block;
 }
+.btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #84ceeb;
+    color: white;
+}
+.btn:focus{
+    outline: none;
+    background-color: #84ceeb;
+    border: none;
+}
+.btn-c-1{
+    color: #ffffff;
+    background: #8806d0;
+    border: 1px solid #c1c8e4;
+}
 .btn-md{
     padding: 10px 12px;
     font-size: 16px;
