@@ -1,0 +1,195 @@
+/*================================================================
+*
+* A little house keeping
+*
+ =================================================================*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.bg-1{
+    height: 100%;
+    background: url("../img/bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+/*=======================================================================
+*
+* Font Styles
+*
+ ========================================================================*/
+
+header{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.robo-font{
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cap{
+    text-transform: capitalize;
+}
+.txt-ct{
+    text-align: center;
+}
+
+/*====================================================================
+*
+*  Margins, Padding and Border-radius
+*
+ ===================================================================*/
+.mr-16{
+    margin: 16px;
+}
+.pd-16{
+    padding: 16px;
+}
+.rd-8{
+    border-radius: 8px;
+}
+
+/*====================================================================
+*
+*  Cards and Colors
+*
+ ======================================================================*/
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+}
+.c-blue-1{
+    color: #1cacd7;
+}
+.text-dark{
+    color: black;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+
+/*====================================================================
+*
+* Form inputs and Buttons
+*
+ =====================================================================*/
+.form-input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    display: block;
+    font-size: 1em;
+    border: 1px solid #c1c8e4;
+    outline: none;
+}
+.form-input:focus{
+    border: 1px solid #84ceeb;
+}
+
+.btn{
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #84ceeb;
+    color: white;
+}
+.btn:focus{
+    outline: none;
+    background-color: #84ceeb;
+}
+.btn-c-1{
+    color: #ffffff;
+    background: #8806d0;
+    border: 1px solid #c1c8e4;
+}
+.btn-md{
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-blk{
+    width: 100%;
+}
+/*=====================================================================
+*
+*  Grid and Positioning
+*
+ =====================================================================*/
+.fx-d{
+    display: flex;
+}
+.fx-col{
+    flex-direction: column;
+}
+.fx-ct-items{
+    align-items: center;
+}
+.fx-j-ct{
+    justify-content: center;
+}
+.fx-j-ard{
+    justify-content: space-around;
+}
+.hide{
+    display: none;
+}
+/*======================================================================
+*
+*  Responsive
+*
+ =======================================================================*/
+@media only screen and (max-width: 600px) {
+    .hide-sm{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .fx-col-rwd{
+        flex-direction: row;
+    }
+
+    /* Flex display widths*/
+    .fx-1{flex: 8.33%;}
+    .fx-2 {flex: 16.66%;}
+    .fx-3 {flex: 25%;}
+    .fx-4 {flex: 33.33%;}
+    .fx-5 {flex: 41.66%;}
+    .fx-6 {flex: 50%;}
+    .fx-7 {flex: 58.33%;}
+    .fx-8 {flex: 66.66%;}
+    .fx-9 {flex: 75%;}
+    .fx-10 {flex: 83.33%;}
+    .fx-11 {flex: 91.66%;}
+    .fx-12 {flex: 100%;}
+
+    .txt-l-rwd{
+        text-align: left;
+    }
+    .hide-md{
+        display: none;
+    }
+}
