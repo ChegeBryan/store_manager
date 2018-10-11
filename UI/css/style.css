@@ -190,5 +190,7 @@ header{
     .txt-l-rwd{
         text-align: left;
     }
-
+    .hide-md{
+        display: none;
+    }
 }
