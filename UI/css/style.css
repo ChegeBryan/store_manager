@@ -51,8 +51,14 @@ header{
 *  Margins, Padding and Border-radius
 *
  ===================================================================*/
+.mr-16{
+    margin: 16px;
+}
 .pd-16{
     padding: 16px;
+}
+.rd-8{
+    border-radius: 8px;
 }
 
 /*====================================================================
@@ -62,4 +68,61 @@ header{
  ======================================================================*/
 .text-dark{
     color: black;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+
+/*=====================================================================
+*
+*  Grid and Positioning
+*
+ =====================================================================*/
+.fx-d{
+    display: flex;
+}
+.fx-col{
+    flex-direction: column;
+}
+.fx-ct-items{
+    align-items: center;
+}
+.fx-j-ct{
+    justify-content: center;
+}
+.fx-j-ard{
+    justify-content: space-around;
+}
+.hide{
+    display: none;
+}
+/*======================================================================
+*
+*  Responsive
+*
+ =======================================================================*/
+
+@media only screen and (min-width: 768px) {
+    .fx-col-rwd{
+        flex-direction: row;
+    }
+
+    /* Flex display widths*/
+    .fx-1{flex: 8.33%;}
+    .fx-2 {flex: 16.66%;}
+    .fx-3 {flex: 25%;}
+    .fx-4 {flex: 33.33%;}
+    .fx-5 {flex: 41.66%;}
+    .fx-6 {flex: 50%;}
+    .fx-7 {flex: 58.33%;}
+    .fx-8 {flex: 66.66%;}
+    .fx-9 {flex: 75%;}
+    .fx-10 {flex: 83.33%;}
+    .fx-11 {flex: 91.66%;}
+    .fx-12 {flex: 100%;}
+
+    .txt-l-rwd{
+        text-align: left;
+    }
+
 }
