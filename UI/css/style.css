@@ -96,6 +96,14 @@ header{
     border: 1px solid #84ceeb;
 }
 
+.btn{
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 /*=====================================================================
 *
 *  Grid and Positioning
