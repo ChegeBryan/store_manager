@@ -153,6 +153,7 @@ header{
 .fx-j-ard{
     justify-content: space-around;
 }
+
 .hide{
     display: none;
 }
@@ -191,5 +192,17 @@ header{
     }
     .hide-md{
         display: none;
+    }
+    .pd-tp-64-rwd{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .pd-tp-96-rwd{
+        padding-top: 96px;
+        padding-bottom: 96px;
+
     }
 }
