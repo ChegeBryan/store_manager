@@ -1,0 +1,65 @@
+/*================================================================
+*
+* A little house keeping
+*
+ =================================================================*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*=======================================================================
+*
+* Font Styles
+*
+ ========================================================================*/
+
+header{
+    font-size: 2em;
+}
+.robo-font{
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cap{
+    text-transform: capitalize;
+}
+.txt-ct{
+    text-align: center;
+}
+
+/*====================================================================
+*
+*  Margins, Padding and Border-radius
+*
+ ===================================================================*/
+.pd-16{
+    padding: 16px;
+}
+
+/*====================================================================
+*
+*  Colors
+*
+ ======================================================================*/
+.text-dark{
+    color: black;
+}
