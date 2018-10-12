@@ -163,6 +163,17 @@ header{
 .btn-blk{
     width: 100%;
 }
+/*
+.dot {
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    background-color: #8806d0;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+*/
 /*=====================================================================
 *
 *  Grid and Positioning
@@ -195,6 +206,15 @@ header{
 .hide{
     display: none;
 }
+sidenav{
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+}
+
+.sidenav a{
+    display: block;
+}
 /*======================================================================
 *
 *  Responsive
@@ -212,7 +232,7 @@ header{
     }
 
     /* Flex display widths*/
-    .fx-1{flex: 8.33%;}
+    .fx-1 {flex: 8.33%;}
     .fx-2 {flex: 16.66%;}
     .fx-3 {flex: 25%;}
     .fx-4 {flex: 33.33%;}
