@@ -42,6 +42,9 @@ header{
     font-size: 2.3em;
     font-weight: bold;
 }
+.navbar-brand{
+    font-size: 1.5em;
+}
 .robo-font{
     font-family: 'Roboto', sans-serif;
 }
@@ -51,7 +54,15 @@ header{
 .txt-ct{
     text-align: center;
 }
-
+.small{
+    font-size: 50%;
+    font-weight: 200;
+    line-height: 1;
+    color: #c1c8e4;
+}
+.txt-bold{
+    font-weight: bold;
+}
 /*====================================================================
 *
 *  Margins, Padding and Border-radius
@@ -60,11 +71,22 @@ header{
 .mr-16{
     margin: 16px;
 }
+.mr-lr{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.pd-8{
+    padding: 8px;
+}
 .pd-16{
     padding: 16px;
 }
 .rd-8{
     border-radius: 8px;
+}
+.rd-tp{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 /*====================================================================
@@ -76,8 +98,22 @@ header{
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     transition: 0.3s;
 }
+.card-hover:hover{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 8px 40px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.card-h3, .card-p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .c-blue-1{
     color: #1cacd7;
+}
+.c-purple{
+    color: #8806d0;
+}
+.c-white{
+    color: white;
 }
 .text-dark{
     color: black;
@@ -98,6 +134,12 @@ header{
     display: block;
     font-size: 1em;
     border: 1px solid #c1c8e4;
+    outline: none;
+}
+.search-bar{
+    width: 100%;
+    font-size: 1em;
+    border: 0px solid #c1c8e4;
     outline: none;
 }
 .form-input:focus{
@@ -125,6 +167,9 @@ header{
     background: #8806d0;
     border: 1px solid #c1c8e4;
 }
+.btn-sm{
+    padding: 4px 8px;
+}
 .btn-md{
     padding: 10px 12px;
     font-size: 16px;
@@ -133,6 +178,17 @@ header{
 .btn-blk{
     width: 100%;
 }
+/*
+.dot {
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    background-color: #8806d0;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+*/
 /*=====================================================================
 *
 *  Grid and Positioning
@@ -153,9 +209,28 @@ header{
 .fx-j-ard{
     justify-content: space-around;
 }
-
+.fx-j-btw{
+    justify-content: space-between;
+}
+.fx-bs-items{
+    align-items: baseline;
+}
+.fx-str{
+    flex: 0.5 0 auto;
+}
 .hide{
     display: none;
+}
+.sidenav{
+    position: fixed;
+    top: 70px;
+}
+.sidenav a{
+    display: block;
+}
+.img-rwd{
+    width: 100%;
+    height: auto;
 }
 /*======================================================================
 *
@@ -174,7 +249,7 @@ header{
     }
 
     /* Flex display widths*/
-    .fx-1{flex: 8.33%;}
+    .fx-1 {flex: 8.33%;}
     .fx-2 {flex: 16.66%;}
     .fx-3 {flex: 25%;}
     .fx-4 {flex: 33.33%;}
