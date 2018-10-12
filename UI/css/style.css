@@ -51,7 +51,12 @@ header{
 .txt-ct{
     text-align: center;
 }
-
+.small{
+    font-size: 50%;
+    font-weight: 200;
+    line-height: 1;
+    color: #c1c8e4;
+}
 /*====================================================================
 *
 *  Margins, Padding and Border-radius
