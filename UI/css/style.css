@@ -252,6 +252,10 @@ ul.breadcrumb li a:hover {
     width: 100%;
     height: auto;
 }
+.img-rwd-1{
+    width: 100%;
+    height: 100%;
+}
 /*======================================================================
 *
 *  Responsive
