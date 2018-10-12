@@ -42,7 +42,7 @@ header{
     font-size: 2.3em;
     font-weight: bold;
 }
-.navbar a{
+.navbar-brand{
     font-size: 1.5em;
 }
 .robo-font{
@@ -68,6 +68,10 @@ header{
 .mr-16{
     margin: 16px;
 }
+.mr-lr{
+    margin-left: 4px;
+    margin-right: 4px;
+}
 .pd-8{
     padding: 8px;
 }
@@ -89,6 +93,12 @@ header{
 }
 .c-blue-1{
     color: #1cacd7;
+}
+.c-purple{
+    color: #8806d0;
+}
+.c-white{
+    color: white;
 }
 .text-dark{
     color: black;
@@ -141,6 +151,9 @@ header{
     color: #ffffff;
     background: #8806d0;
     border: 1px solid #c1c8e4;
+}
+.btn-sm{
+    padding: 4px 8px;
 }
 .btn-md{
     padding: 10px 12px;
