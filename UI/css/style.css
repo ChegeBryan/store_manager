@@ -189,6 +189,26 @@ header{
     text-align: center;
 }
 */
+ul.breadcrumb{
+    padding: 10px 16px;
+    background-color: #8806d0;
+}
+ul.breadcrumb li {
+    display: inline;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #ffffff;
+}
+ul.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+
 /*=====================================================================
 *
 *  Grid and Positioning
@@ -231,6 +251,10 @@ header{
 .img-rwd{
     width: 100%;
     height: auto;
+}
+.img-rwd-1{
+    width: 100%;
+    height: 100%;
 }
 /*======================================================================
 *
