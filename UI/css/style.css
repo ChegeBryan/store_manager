@@ -60,6 +60,9 @@ header{
     line-height: 1;
     color: #c1c8e4;
 }
+.txt-bold{
+    font-weight: bold;
+}
 /*====================================================================
 *
 *  Margins, Padding and Border-radius
@@ -81,6 +84,10 @@ header{
 .rd-8{
     border-radius: 8px;
 }
+.rd-tp{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 
 /*====================================================================
 *
@@ -90,6 +97,14 @@ header{
 .card {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     transition: 0.3s;
+}
+.card-hover:hover{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 8px 40px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.card-h3, .card-p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .c-blue-1{
     color: #1cacd7;
@@ -206,14 +221,16 @@ header{
 .hide{
     display: none;
 }
-sidenav{
+.sidenav{
     position: fixed;
-    top: 80px;
-    z-index: 1;
+    top: 70px;
 }
-
 .sidenav a{
     display: block;
+}
+.img-rwd{
+    width: 100%;
+    height: auto;
 }
 /*======================================================================
 *
