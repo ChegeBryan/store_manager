@@ -31,7 +31,6 @@ ul{
     background: url("../img/bg.jpg") no-repeat fixed center;
     background-size: cover;
 }
-
 /*=======================================================================
 *
 * Font Styles
@@ -255,6 +254,9 @@ ul.breadcrumb li a:hover {
 .img-rwd-1{
     width: 100%;
     height: 100%;
+}
+.d-board-img{
+    height: 300px;
 }
 /*======================================================================
 *
