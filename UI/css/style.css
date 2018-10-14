@@ -258,6 +258,53 @@ ul.breadcrumb li a:hover {
 .d-board-img{
     height: 300px;
 }
+.pst-rv{
+    position: relative;
+}
+.pst-abs{
+    position: absolute;
+}
+.label{
+    display: block;
+    cursor: pointer;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+.label input {
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #c1c8e4;
+    border-radius: 50%;
+}
+.label:hover input ~ .checkmark {
+    background-color: #84ceeb;
+}
+.label input:checked ~ .checkmark {
+    background-color: #5680e9;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.label input:checked ~ .checkmark:after {
+    display: block;
+}
+.label .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
 /*======================================================================
 *
 *  Responsive
