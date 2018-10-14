@@ -231,6 +231,9 @@ ul.breadcrumb li a:hover {
 .fx-j-btw{
     justify-content: space-between;
 }
+.fx-j-end{
+    justify-content: flex-end;
+}
 .fx-bs-items{
     align-items: baseline;
 }
