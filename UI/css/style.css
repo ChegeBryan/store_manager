@@ -264,6 +264,11 @@ ul.breadcrumb li a:hover {
 .pst-abs{
     position: absolute;
 }
+/*===================================================================
+*
+* Labels, Sliders and checkbox
+*
+=====================================================================*/
 .label{
     display: block;
     cursor: pointer;
@@ -304,6 +309,23 @@ ul.breadcrumb li a:hover {
     border-radius: 50%;
     background: white;
 }
+
+/*======================================================================
+*
+* Tables
+*
+ ======================================================================*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 /*======================================================================
 *
