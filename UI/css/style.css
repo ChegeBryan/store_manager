@@ -177,6 +177,27 @@ header{
 .btn-blk{
     width: 100%;
 }
+.accordion{
+    background-color: #eee;
+    color: #8806d0;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #84ceeb;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 /*
 .dot {
     height: 20px;
@@ -384,6 +405,12 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+}
+.rt-align{
+    text-align: right;
+}
+.responsive-table{
+    overflow-x: auto;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
